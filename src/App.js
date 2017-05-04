@@ -1,18 +1,22 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Route } from "react-router-dom";
+import About from "./About";
+import Contact from "./Contact";
+import Work from "./Work";
+import NavigationBar from "./NavigationBar";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div id="wrapper">
+        <NavigationBar />
+
+        <Route exact path="/" component={About} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/work" component={Work} />
+
+        {/*{React.cloneElement(this.props.children, {})}*/}
       </div>
     );
   }

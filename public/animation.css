@@ -1,0 +1,12 @@
+    .fadeInLoad {
+        animation: fadeInLoad 1.5s;
+    }
+    
+    @keyframes fadeInLoad {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }

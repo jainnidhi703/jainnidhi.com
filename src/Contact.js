@@ -4,7 +4,7 @@ class Contact extends Component {
   render() {
     return (
       <article id="contact" className="panel">
-        <div>
+        <div className="fadeInLoad">
           <header>
             <h1>Let's talk </h1>
           </header>

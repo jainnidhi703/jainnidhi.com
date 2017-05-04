@@ -4,7 +4,7 @@ class Work extends Component {
   render() {
     return (
       <article id="work" className="panel">
-        <div>
+        <div className="fadeInLoad">
           <header>
             <h2>Work</h2>
           </header>

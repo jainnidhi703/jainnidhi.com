@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div id="wrapper">
         <NavigationBar />
-        <Route exact path="/" component={About} />
+        <Route exact path="/" component={About}/>
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/work" component={Work} />

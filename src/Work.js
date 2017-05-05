@@ -6,7 +6,7 @@ class Work extends Component {
       <article id="work" className="panel">
         <div className="fadeInLoad">
           <header>
-            <h1>Work</h1>
+            <h1>Projects</h1>
           </header>
           <p>
             Coming Up soon!!!

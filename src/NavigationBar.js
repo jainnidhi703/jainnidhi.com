@@ -9,11 +9,11 @@ class NavigationBar extends Component {
           <NavLink to="/about" activeClassName="active">
             <i className="icon-home" />
           </NavLink>
-          <NavLink to="/work">
-            <i className="icon-folder"  activeClassName="active"/>
+          <NavLink to="/work" activeClassName="active">
+            <i className="icon-folder" />
           </NavLink>
-          <NavLink to="/contact">
-            <i className="icon-envelope"  activeClassName="active"/>
+          <NavLink to="/contact" activeClassName="active">
+            <i className="icon-envelope" />
           </NavLink>
         </nav>
       </div>

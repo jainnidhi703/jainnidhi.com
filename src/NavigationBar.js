@@ -10,10 +10,10 @@ class NavigationBar extends Component {
             <i className="icon-home" />
           </NavLink>
           <NavLink to="/work">
-            <i className="icon-folder" />
+            <i className="icon-folder"  activeClassName="active"/>
           </NavLink>
           <NavLink to="/contact">
-            <i className="icon-envelope" />
+            <i className="icon-envelope"  activeClassName="active"/>
           </NavLink>
         </nav>
       </div>

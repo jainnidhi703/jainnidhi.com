@@ -4,7 +4,7 @@ class About extends Component {
   render() {
     return (
       <article className="panel">
-        <div className="fadeInLoad">
+        <div className="fadeInLoad" >
           <header>
             <h1><b>Hi!<br />I'm Nidhi.</b></h1>
           </header>

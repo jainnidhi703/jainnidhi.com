@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 
 class NavigationBar extends Component {
   render() {
+    const pathName = this.props.location.pathname;
+    const aboutClass = pathName === '/' ? 'active': ''; 
     return (
       <div>
         <nav id="nav">
-          <NavLink to="/about" activeClassName="active">
+          <NavLink to="/about" activeClassName="active" className={aboutClass}>
             <i className="icon-home" />
           </NavLink>
           <NavLink to="/work" activeClassName="active">
@@ -27,4 +29,4 @@ class NavigationBar extends Component {
   }
 }
 
-export default NavigationBar;
+export default withRouter(NavigationBar);

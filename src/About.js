@@ -11,7 +11,7 @@ class About extends Component {
             <div>
               An Innovative and Enthusiastic
               <br />
-              Software Developer.
+              &lt;Developer /&gt;.
               <br />
               <div style={{height: '1em'}}/>
               <a

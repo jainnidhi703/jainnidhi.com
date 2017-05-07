@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy:firebase": "firebase deploy",
-    "predeploy:firebase": "yarn build"
+    "deploy": "firebase deploy",
+    "predeploy": "yarn build"
   }
 }

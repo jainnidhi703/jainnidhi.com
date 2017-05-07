@@ -6,14 +6,16 @@ class Contact extends Component {
       <article id="contact" className="panel">
         <div className="fadeInLoad">
           <header>
-            <h1>Let's talk </h1>
+            <h1><b>Let's talk </b></h1>
           </header>
           <p>
-            I'm always looking forward to new opportunities,
+            I'm currently looking for challenging projects,
             <br />
-            ping me if you got any.
-            <br />
-            <i className="icon-envelope">
+            feel free to reach out to me for a mutual and 
+            <br/>
+            successful collaboration.
+            <div style={{ height: "1em" }} />
+            <i className="icon-envelope" >
               <span> jainnidhi703@gmail.com</span>
             </i>
           </p>

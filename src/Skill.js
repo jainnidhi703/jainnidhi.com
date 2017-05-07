@@ -1,20 +1,17 @@
 import React, { Component } from "react";
 
-class Work extends Component {
+class Skill extends Component {
   render() {
     return (
-      <article id="work" className="panel">
+      <article className="panel" id="work">
         <div className="fadeInLoad">
           <header>
-            <h1>Experience</h1>
+            <h1>Skills</h1>
           </header>
-          <p>
-            Coming Up soon!!!
-          </p>
         </div>
       </article>
     );
   }
 }
 
-export default Work;
+export default Skill;

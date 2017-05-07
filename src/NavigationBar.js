@@ -12,6 +12,12 @@ class NavigationBar extends Component {
           <NavLink to="/work" activeClassName="active">
             <i className="icon-folder" />
           </NavLink>
+          <NavLink to="/projects" activeClassName="active">
+            <i className="icon-code" />
+          </NavLink>
+          <NavLink to="/skills" activeClassName="active">
+            <i className="icon-lightbulb-o" />
+          </NavLink>
           <NavLink to="/contact" activeClassName="active">
             <i className="icon-envelope" />
           </NavLink>

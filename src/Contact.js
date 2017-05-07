@@ -8,7 +8,7 @@ class Contact extends Component {
           <header>
             <h1><b>Let's talk </b></h1>
           </header>
-          <p>
+          <div>
             I'm currently looking for challenging projects,
             <br />
             feel free to reach out to me for a mutual and 
@@ -18,7 +18,7 @@ class Contact extends Component {
             <i className="icon-envelope" >
               <span> jainnidhi703@gmail.com</span>
             </i>
-          </p>
+          </div>
         </div>
       </article>
     );

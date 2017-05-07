@@ -9,13 +9,13 @@ class Contact extends Component {
             <h1><b>Let's talk </b></h1>
           </header>
           <div>
-            I'm currently looking for challenging projects,
+            I'm currently looking for challenging projects.
             <br />
-            feel free to reach out to me for a mutual and 
-            <br/>
-            successful collaboration.
-            <div style={{ height: "1em" }} />
-            <i className="icon-envelope" >
+            Have something for me?
+            <br />
+            Ping me!!!
+            <div style={{ height: "1.5em" }} />
+            <i className="icon-envelope">
               <span> jainnidhi703@gmail.com</span>
             </i>
           </div>

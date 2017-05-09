@@ -305,6 +305,8 @@ body {
 	margin-left: 8.33333%;
 }
 
+
+
 @media screen and (min-width: 737px) {
 	.row > * {
 		padding: 25px 0 0 25px;
@@ -719,53 +721,6 @@ table.default thead {
 	border-bottom: solid 2px #f4f4f4;
 }
 
-
-/* Form */
-
-form label {
-	display: block;
-	font-weight: 400;
-	color: #363636;
-	margin: 0 0 1em 0;
-}
-
-form input[type="text"], form input[type="email"], form input[type="password"], form select, form textarea {
-	-webkit-appearance: none;
-	border: 0;
-	background: #f4f4f4;
-	padding: 0.75em;
-	width: 100%;
-	-moz-transition: background-color .25s ease-in-out;
-	-webkit-transition: background-color .25s ease-in-out;
-	-ms-transition: background-color .25s ease-in-out;
-	transition: background-color .25s ease-in-out;
-}
-
-form input[type="text"]:focus, form input[type="email"]:focus, form input[type="password"]:focus, form select:focus, form textarea:focus {
-	background: #f8f8f8;
-}
-
-form input[type="text"], form input[type="email"], form input[type="password"], form select {
-	line-height: 1.35em;
-}
-
-form::-webkit-input-placeholder {
-	color: #999;
-}
-
-form:-moz-placeholder {
-	color: #999;
-}
-
-form::-moz-placeholder {
-	color: #999;
-}
-
-form:-ms-input-placeholder {
-	color: #999;
-}
-
-
 /* Section/Article */
 
 section, article {
@@ -783,45 +738,6 @@ header > p {
 header > div {
 	color: #aaa;
 }
-
-
-/* Image */
-
-.image {
-	display: inline-block;
-}
-
-.image img {
-	display: block;
-	width: 4em;
-}
-
-.image.fit {
-	display: block;
-	width: 100%;
-}
-
-.image.featured {
-	display: block;
-	width: 100%;
-	margin: 0 0 2em 0;
-}
-
-.image.left {
-	float: left;
-	margin: 0 2em 2em 0;
-}
-
-.image.centered {
-	display: block;
-	margin: 0 0 2em 0;
-}
-
-.image.centered img {
-	margin: 0 auto;
-	width: auto;
-}
-
 
 /* Button */
 

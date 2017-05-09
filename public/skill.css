@@ -1,0 +1,28 @@
+.menu {
+    padding: 48px 0;
+    text-align: center;
+}
+
+.menu-img {
+    width: 7em;
+    height: 7em;
+}
+
+.menu .menu-li{
+    display: inline-block;
+    width: 170px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (max-width: 991px) {
+    .menu .menu-li {
+        margin-bottom: 20px;
+    }
+    .col-xs-12, .col-sm-12 {
+        margin-bottom: 30px;
+    }
+    .col-xs-12:last-child, .col-sm-12:last-child {
+        margin-bottom: 0px;
+    }
+}

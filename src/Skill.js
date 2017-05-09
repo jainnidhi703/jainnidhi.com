@@ -20,14 +20,17 @@ class Skill extends Component {
           </header>
           <section>
             <div className="row">
-              <SkillImage image={nodejs} />
-              <SkillImage image={hadoop} />
-              <SkillImage image={hbase} />
-              <SkillImage image={redis} />
-              <SkillImage image={elasticsearch} />
-              <SkillImage image={react} />
-              <SkillImage image={java} />
-              <SkillImage image={kafka} />
+              <SkillImage image={nodejs} url="https://nodejs.org/" />
+              <SkillImage image={hadoop} url="http://hadoop.apache.org/" />
+              <SkillImage image={hbase} url="https://hbase.apache.org/" />
+              <SkillImage image={redis} url="https://redis.io/" />
+              <SkillImage image={elasticsearch} url="https://www.elastic.co/" />
+              <SkillImage
+                image={react}
+                url="https://facebook.github.io/react/"
+              />
+              <SkillImage image={java} url="https://www.java.com/" />
+              <SkillImage image={kafka} url="https://kafka.apache.org/" />
               {/*<SkillImage image={mongodb} />*/}
             </div>
           </section>

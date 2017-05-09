@@ -793,7 +793,7 @@ header > div {
 
 .image img {
 	display: block;
-	width: 50%;
+	width: 4em;
 }
 
 .image.fit {

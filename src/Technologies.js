@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SkillImage from "./SkillImage";
+import Technology from "./Technology";
 import redis from "../public/images/redis.svg";
 import react from "../public/images/react.svg";
 import nodejs from "../public/images/nodejs.svg";
@@ -16,19 +16,19 @@ class Skill extends Component {
       <article className="panel" id="work">
         <div className="fadeInLoad">
           <header>
-            <h1>Skills</h1>
+            <h1>Technologies</h1>
           </header>
           <div className="menu">
             <div className="col-xs-12 col-sm-12 col-lg-12">
-              <SkillImage image={java} />
-              <SkillImage image={nodejs} />
-              <SkillImage image={hadoop} />
-              <SkillImage image={flink} />
-              <SkillImage image={kafka} />
-              <SkillImage image={redis} />
-              <SkillImage image={elasticsearch} />
-              <SkillImage image={react} />
-              <SkillImage image={mongo} />
+              <Technology imageName={java} />
+              <Technology imageName={nodejs} />
+              <Technology imageName={hadoop} />
+              <Technology imageName={flink} />
+              <Technology imageName={kafka} />
+              <Technology imageName={redis} />
+              <Technology imageName={elasticsearch} />
+              <Technology imageName={react} />
+              <Technology imageName={mongo} />
             </div>
           </div>
         </div>

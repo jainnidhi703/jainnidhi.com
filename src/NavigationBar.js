@@ -17,7 +17,7 @@ class NavigationBar extends Component {
           <NavLink to="/projects" activeClassName="active">
             <i className="icon-code" />
           </NavLink>
-          <NavLink to="/skills" activeClassName="active">
+          <NavLink to="/technologies" activeClassName="active">
             <i className="icon-lightbulb-o" />
           </NavLink>
           <NavLink to="/contact" activeClassName="active">

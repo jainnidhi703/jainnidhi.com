@@ -4,7 +4,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Work from "./Work";
 import Project from "./Project";
-import Skill from "./Skill";
+import Technologies from "./Technologies";
 import NavigationBar from "./NavigationBar";
 
 class App extends Component {
@@ -17,7 +17,7 @@ class App extends Component {
         <Route path="/contact" component={Contact} />
         <Route path="/work" component={Work} />
         <Route path="/projects" component={Project} />
-        <Route path="/skills" component={Skill} />
+        <Route path="/technologies" component={Technologies} />
       </div>
     );
   }

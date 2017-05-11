@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class ProfileLink extends Component {
   render() {
@@ -13,5 +14,9 @@ class ProfileLink extends Component {
     );
   }
 }
+
+ProfileLink.propTypes = {
+  url: PropTypes.string.isRequired
+};
 
 export default ProfileLink;

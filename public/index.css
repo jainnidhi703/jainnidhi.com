@@ -305,8 +305,6 @@ body {
 	margin-left: 8.33333%;
 }
 
-
-
 @media screen and (min-width: 737px) {
 	.row > * {
 		padding: 25px 0 0 25px;
@@ -721,6 +719,7 @@ table.default thead {
 	border-bottom: solid 2px #f4f4f4;
 }
 
+
 /* Section/Article */
 
 section, article {
@@ -738,6 +737,7 @@ header > p {
 header > div {
 	color: #aaa;
 }
+
 
 /* Button */
 
@@ -1018,6 +1018,26 @@ ol.default li {
 	#nav a.active:after {
 		border-bottom-width: 0.5em;
 	}
+	.active .activeTriangle {
+		opacity: 1.0;
+		content: '';
+		display: block;
+		position: absolute;
+		left: 50%;
+		bottom: -0.75em;
+		margin-left: -0.5em;
+		border-bottom: solid 0em #ffffff;
+		border-left: solid 0.5em transparent;
+		border-right: solid 0.5em transparent;
+		-moz-transition: border-bottom-width .25s ease-in-out;
+		-webkit-transition: border-bottom-width .25s ease-in-out;
+		-ms-transition: border-bottom-width .25s ease-in-out;
+		transition: border-bottom-width .25s ease-in-out;
+		border-bottom-width: 0.5em;
+	}
+	.activeTriangle {
+		opacity: 0;
+	}
 	/* Panels */
 	#main {
 		width: 45em;
@@ -1054,7 +1074,7 @@ ol.default li {
 		position: absolute;
 		right: 0;
 		top: 50%;
-		margin-top: -1.375em;
+		margin-top: -1.3775em;
 		width: 2.75em;
 		height: 2.75em;
 		background: #000;

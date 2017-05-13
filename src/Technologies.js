@@ -20,15 +20,15 @@ class Skill extends Component {
           </header>
           <div className="menu">
             <div className="col-xs-12 col-sm-12 col-lg-12">
-              <Technology imageName={java} />
-              <Technology imageName={nodejs} />
-              <Technology imageName={hadoop} />
-              <Technology imageName={flink} />
-              <Technology imageName={kafka} />
-              <Technology imageName={redis} />
-              <Technology imageName={elasticsearch} />
-              <Technology imageName={react} />
-              <Technology imageName={mongo} />
+              <Technology imageName={java} url={"https://www.java.com"}/>
+              <Technology imageName={nodejs} url={"https://nodejs.org"}/>
+              <Technology imageName={hadoop} url={"http://hadoop.apache.org/"}/>
+              <Technology imageName={flink} url={"https://flink.apache.org/"}/>
+              <Technology imageName={kafka} url={"https://kafka.apache.org"}/>
+              <Technology imageName={redis} url={"https://redis.io/"}/>
+              <Technology imageName={elasticsearch} url={"https://www.elastic.co/"}/>
+              <Technology imageName={react} url={"https://facebook.github.io/react/"}/>
+              <Technology imageName={mongo} url={"https://www.mongodb.com/"}/>
             </div>
           </div>
         </div>

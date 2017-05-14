@@ -1136,18 +1136,24 @@ ol.default li {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	/* Footer */
-	#footer {
-		text-align: center;
-		padding: 2em 0 0 0;
-		font-size: 0.75em;
-	}
 	.grey-color {
 		color: #777777;
 		text-decoration: none;
 	}
 	.social-icon-space {
 		margin-left: 2em;
+	}
+	.container {
+		display: flex;
+	}
+	.fixed {
+		width: 200px;
+	}
+	.fixed img {
+		width: 10em;
+	}
+	.flex-item {
+		flex-grow: 1;
 	}
 }
 
@@ -1265,5 +1271,8 @@ ol.default li {
 	}
 	.social-icon-space {
 		margin-left: 2em;
+	}
+	.fixed img {
+		width: 8em;
 	}
 }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-// import juniper from "../public/images/juniper.jpg";
-// import dailyhunt from "../public/images/dailyhunt.jpg";
+import juniper from "../public/images/juniper.jpg";
+import dailyhunt from "../public/images/dailyhunt.jpg";
 
 class Work extends Component {
   render() {
@@ -10,16 +10,18 @@ class Work extends Component {
           <header>
             <h1>Experience</h1>
           </header>
-          <div>
-            <ul>
-              <li>
-                <b>Software Engineer</b>
-                <br />
-                DailyHunt, Bangalore
-                <br />
-                <i> 07/2015 - Present </i>
-              </li>
-              <br />
+          <div className="container">
+            <div className="fixed">
+              <a href="http://www.dailyhunt.in" target="_blank">
+                <img src={dailyhunt} alt="" />
+              </a>
+            </div>
+
+            <div className="flex-item">
+              <div>
+                <b>DailyHunt - Software Engineer</b>
+                <i style={{ float: "right" }}> [ 07/2015 - Present ]</i>
+              </div>
               <p>
                 Being a part of Personalization and Analytics team,
                 I worked across a  span of projects from Recommendation Engine
@@ -29,20 +31,27 @@ class Work extends Component {
                 aggregating their day to day activity, storing it to finding relevant
                 content for the recommendation.
               </p>
-              <li>
-                <b>Intern</b>
-                <br />
-                Juniper Networks, Bangalore
-                <br />
-                <i> 01/2015 - 06/2015 </i>
-              </li>
-              <br />
+            </div>
+          </div>
+          <div className="container">
+            <div className="fixed">
+              <a href="http://www.juniper.net" target="_blank">
+                <img src={juniper} alt="" />
+              </a>
+            </div>
+
+            <div className="flex-item">
+              <div>
+                <b>Juniper Networks - Intern</b>
+                <i style={{ float: "right" }}> [ 01/2015 - 06/2015 ]</i>
+              </div>
               <p>
                 As a member of the security team, I built tools to extract and process Internet Session Metadata.
                 And developed a software which blocked harmful IP addresses on top of the router.
               </p>
-            </ul>
+            </div>
           </div>
+          <br />
         </div>
       </article>
     );

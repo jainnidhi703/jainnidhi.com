@@ -10,16 +10,38 @@ class Project extends Component {
             <div className="container">
               <div className="flex-item">
                 <div className="comicSans">
-                  Juniper Networks - Intern
-                  <i>[ 01/2015 - 06/2015 ]</i>
+                  Recommendation System
                 </div>
-                <ul>
-                  <li>
-                    Built tools to
-                    <b> Extract/Process Internet Session Data </b>
-                    and block harmful IP addresses on top of the router.
-                  </li>
-                </ul>
+              </div>
+            </div>
+            <div className="container">
+
+              <div className="flex-item">
+                <div className="comicSans">
+                  Content Ingestion System
+                </div>
+              </div>
+            </div>
+            <div className="container">
+
+              <div className="flex-item">
+                <div className="comicSans">
+                  Flink Aggregations
+                </div>
+              </div>
+            </div>
+            <div className="container">
+              <div className="flex-item">
+                <div className="comicSans">
+                  History Reconstruction
+                </div>
+              </div>
+            </div>
+            <div className="container">
+              <div className="flex-item">
+                <div className="comicSans">
+                  Open Source Contribution
+                </div>
               </div>
             </div>
           </header>

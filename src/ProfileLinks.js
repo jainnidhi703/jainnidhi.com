@@ -4,7 +4,8 @@ import ProfileLink from "./ProfileLink";
 class ProfileLinks extends Component {
   render() {
     return (
-      <div style={{ paddingTop: "1em" }}>
+      // <div style={{ paddingTop: "1em" }}>
+      <div className="grey-color">
         <ProfileLink
           url="https://www.linkedin.com/in/nidhi-jain-06746188/"
           icon="icon-linkedin-square"

@@ -5,7 +5,7 @@ class ProfileLink extends Component {
   render() {
     return (
       <a
-        className={this.props.className + " grey-color"}
+        className={this.props.className}
         href={this.props.url}
         target="_blank"
       >

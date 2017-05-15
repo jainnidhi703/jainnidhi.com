@@ -1137,8 +1137,15 @@ ol.default li {
 		margin-bottom: 1em;
 	}
 	.grey-color {
+		padding-top: 1em;
+	}
+	.grey-color a {
 		color: #777777;
 		text-decoration: none;
+		opacity: 0.35;
+	}
+	.grey-color a:hover {
+		opacity: 1;
 	}
 	.social-icon-space {
 		margin-left: 2em;

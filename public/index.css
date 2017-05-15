@@ -802,21 +802,6 @@ ol.default li {
 	margin-top: 0.5em;
 }
 
-.flex-item li:before {
-	position: absolute;
-	margin-left: -1.3em;
-	font-weight: bold;
-	content: "\2713";
-}
-
-.flex-item i {
-	float: right;
-}
-
-.flex-item .comicSans{
-	font-family: "Comic Sans MS";
-}
-
 
 /* Icons */
 
@@ -1047,22 +1032,9 @@ ol.default li {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
+	/** Work **/
 	#work header > h1 {
 		padding-left: 0.5em;
-	}
-	.grey-color {
-		padding-top: 1em;
-	}
-	.grey-color a {
-		color: #777777;
-		text-decoration: none;
-		opacity: 0.35;
-	}
-	.grey-color a:hover {
-		opacity: 1;
-	}
-	.social-icon-space {
-		margin-left: 2em;
 	}
 	.container {
 		display: flex;
@@ -1081,6 +1053,32 @@ ol.default li {
 	.flex-item {
 		padding-left: 1em;
 		flex-grow: 1;
+	}
+	.flex-item li:before {
+		position: absolute;
+		margin-left: -1.3em;
+		font-weight: bold;
+		content: "\2713";
+	}
+	.flex-item i {
+		float: right;
+	}
+	.flex-item .comicSans {
+		font-family: "Comic Sans MS";
+	}
+	.grey-color {
+		padding-top: 1em;
+	}
+	.grey-color a {
+		color: #777777;
+		text-decoration: none;
+		opacity: 0.35;
+	}
+	.grey-color a:hover {
+		opacity: 1;
+	}
+	.social-icon-space {
+		margin-left: 2em;
 	}
 }
 
@@ -1181,6 +1179,32 @@ ol.default li {
 	}
 	#me header > div {
 		font-size: 1.25em;
+	}
+	/** Work **/
+	.container {
+		display: block;
+		border-style: solid;
+		border-color: lightgrey;
+		padding-top: 2em;
+	}
+	.fixed {
+		width: 200px;
+	}
+	.fixed img {
+		width: 8em;
+	}
+	.flex-item {
+		padding-left: 1em;
+		flex-grow: 1;
+	}
+	.flex-item li:before {
+		position: absolute;
+		margin-left: -1.3em;
+		font-weight: bold;
+		content: "\2713";
+	}
+	.flex-item .comicSans {
+		font-family: "Comic Sans MS";
 	}
 	.grey-color {
 		padding-top: 1em;

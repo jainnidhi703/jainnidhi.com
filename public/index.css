@@ -989,11 +989,6 @@ ol.default li {
 		height: 100%;
 		text-decoration: none;
 	}
-	#me .pic img {
-		position: relative;
-		display: block;
-		height: 100%;
-	}
 	#me header {
 		position: absolute;
 		left: 0;
@@ -1126,11 +1121,11 @@ ol.default li {
 		margin: 0 0.25em 0 0.25em;
 		text-decoration: none;
 	}
-	#nav a:active {
+	#nav a:hover {
 		opacity: 1.0;
 	}
-	#nav a span {
-		display: none;
+	#nav a:active {
+		opacity: 1.0;
 	}
 	/* Panels */
 	.panel {
@@ -1144,10 +1139,6 @@ ol.default li {
 	}
 	/* Me */
 	#me .pic {
-		width: 100%;
-	}
-	#me .pic img {
-		display: block;
 		width: 100%;
 	}
 	#me header {

@@ -22,15 +22,17 @@ class Work extends Component {
                 <b>DailyHunt - Software Engineer</b>
                 <i style={{ float: "right" }}> [ 07/2015 - Present ]</i>
               </div>
-              <p>
-                Being a part of Personalization and Analytics team,
-                I worked across a  span of projects from Recommendation Engine
-                to Dashboards following proper code standards and test coverage.
-                I was involved in designing and developing software to generate
-                approximately 40 million users affinity end to end, starting from
-                aggregating their day to day activity, storing it to finding relevant
-                content for the recommendation.
-              </p>
+              <ul>
+                <li>
+                  Being a part of Personalization & Analytics team, worked on systems to build User Preferences and Feed Recommendations for 40 million users.
+                </li>
+                <li>
+                  Developed content ingestion and meta-system for 17 languages, about 450 newspapers and  50,000 articles on day to day basis.
+                </li>
+                <li>
+                  Created dashboards and summarized email generator systems for business to see the overall impact of recommendation service.
+                </li>
+              </ul>
             </div>
           </div>
           <div className="container">
@@ -45,10 +47,11 @@ class Work extends Component {
                 <b>Juniper Networks - Intern</b>
                 <i style={{ float: "right" }}> [ 01/2015 - 06/2015 ]</i>
               </div>
-              <p>
-                As a member of the security team, I built tools to extract and process Internet Session Metadata.
-                And developed a software which blocked harmful IP addresses on top of the router.
-              </p>
+              <ul>
+                <li>
+                  As a member of the security team, I built tools to extract/process Internet Session Metadata and block harmful IP addresses on top of the router.
+                </li>
+              </ul>
             </div>
           </div>
           <br />

@@ -51,7 +51,7 @@ body {
 
 /* Box Model */
 
-*, *:before, *:after {
+* {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -72,13 +72,6 @@ body {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-}
-
-.row:after, .row:before {
-	content: '';
-	display: block;
-	clear: both;
-	height: 0;
 }
 
 .row.uniform > * >:first-child {
@@ -635,7 +628,7 @@ body {
 	color: #777777;
 }
 
-body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+body.is-loading * {
 	-moz-transition: none !important;
 	-webkit-transition: none !important;
 	-ms-transition: none !important;
@@ -845,11 +838,6 @@ ol.default li {
 
 /* Panels */
 
-#main {
-	position: relative;
-	overflow: hidden;
-}
-
 .panel {
 	position: relative;
 }
@@ -1039,11 +1027,6 @@ ol.default li {
 		opacity: 0;
 	}
 	/* Panels */
-	#main {
-		width: 45em;
-		background: #ffffff;
-		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
-	}
 	.panel {
 		padding: 3.5em 2.5em 3.5em 2.5em;
 		position: absolute;
@@ -1068,39 +1051,6 @@ ol.default li {
 		position: relative;
 		display: block;
 		height: 100%;
-	}
-	#me .pic .arrow {
-		display: block;
-		position: absolute;
-		right: 0;
-		top: 50%;
-		margin-top: -1.3775em;
-		width: 2.75em;
-		height: 2.75em;
-		background: #000;
-		background: rgba(0, 0, 0, 0.75);
-		color: #ffffff;
-		text-align: center;
-		line-height: 2.75em;
-		font-size: 1.5em;
-		z-index: 1;
-		-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
-		-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
-		-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
-		transition: width .15s ease-in-out, padding-right .15s ease-in-out;
-	}
-	#me .pic .arrow:before {
-		position: relative;
-		padding-right: 0;
-		top: 0.125em;
-	}
-	#me .pic .arrow span {
-		display: block;
-		text-indent: -9999px;
-	}
-	#me .pic:hover .arrow {
-		width: 3em;
-		padding-right: 0.25em;
 	}
 	#me header {
 		position: absolute;
@@ -1241,9 +1191,6 @@ ol.default li {
 		display: none;
 	}
 	/* Panels */
-	#main {
-		background: none;
-	}
 	.panel {
 		padding: 15px 15px 15px 15px;
 		margin: 0 0 7px 0;
@@ -1261,9 +1208,6 @@ ol.default li {
 		display: block;
 		width: 100%;
 	}
-	#me .pic .arrow {
-		display: none;
-	}
 	#me header {
 		text-align: center;
 	}
@@ -1278,8 +1222,15 @@ ol.default li {
 		font-size: 1.25em;
 	}
 	.grey-color {
+		padding-top: 1em;
+	}
+	.grey-color a {
 		color: #777777;
 		text-decoration: none;
+		opacity: 0.35;
+	}
+	.grey-color a:hover {
+		opacity: 1;
 	}
 	.social-icon-space {
 		margin-left: 2em;

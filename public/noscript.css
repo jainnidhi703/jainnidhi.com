@@ -27,26 +27,8 @@ li {
 	opacity: 1.0;
 }
 
-#nav a:before, #nav a:after {
-	display: none;
-}
-
-#nav a span {
-	top: 0;
-	opacity: 1.0;
-}
-
-#nav a span:after {
-	display: none;
-}
-
 
 /* Panels */
-
-#main {
-	background: none;
-	box-shadow: none;
-}
 
 .panel {
 	position: relative;

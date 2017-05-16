@@ -1,54 +1,22 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 
 class Project extends Component {
   render() {
     return (
-      <article className="panel" id="work">
-        <div className="fadeInLoad">
-          <header>
-            <h1>Projects</h1>
-            <div className="container">
-              <div className="flex-item">
-                <div className="comicSans">
-                  Recommendation System
-                </div>
-              </div>
-            </div>
-            <div className="container">
-
-              <div className="flex-item">
-                <div className="comicSans">
-                  Content Ingestion System
-                </div>
-              </div>
-            </div>
-            <div className="container">
-
-              <div className="flex-item">
-                <div className="comicSans">
-                  Flink Aggregations
-                </div>
-              </div>
-            </div>
-            <div className="container">
-              <div className="flex-item">
-                <div className="comicSans">
-                  History Reconstruction
-                </div>
-              </div>
-            </div>
-            <div className="container">
-              <div className="flex-item">
-                <div className="comicSans">
-                  Open Source Contribution
-                </div>
-              </div>
-            </div>
-          </header>
+      <div className="container">
+        <div className="flex-item">
+          <div className="comicSans">
+            {this.props.title}
+          </div>
         </div>
-      </article>
+      </div>
     );
   }
 }
+
+Project.propTypes = {
+  title: PropTypes.string.isRequired
+};
 
 export default Project;

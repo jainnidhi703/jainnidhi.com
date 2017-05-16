@@ -3,7 +3,7 @@ import { Route } from "react-router-dom";
 import About from "./About";
 import Contact from "./Contact";
 import Work from "./Work";
-import Project from "./Project";
+import Projects from "./Projects";
 import Technologies from "./Technologies";
 import NavigationBar from "./NavigationBar";
 
@@ -16,7 +16,7 @@ class App extends Component {
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
         <Route path="/work" component={Work} />
-        <Route path="/projects" component={Project} />
+        <Route path="/projects" component={Projects} />
         <Route path="/technologies" component={Technologies} />
       </div>
     );

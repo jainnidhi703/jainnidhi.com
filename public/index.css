@@ -1038,8 +1038,6 @@ ol.default li {
 	}
 	.container {
 		display: flex;
-		/*border-top-width: 1px;
-		border-bottom-width: 1px;*/
 		border-style: solid;
 		border-color: lightgrey;
 		padding-top: 2em;

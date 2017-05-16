@@ -1,23 +1,21 @@
 import React, { Component } from "react";
 import Project from "./Project";
+import ProjectStore from "./store/ProjectStore";
 
 class Projects extends Component {
   render() {
+
+    const projects = ProjectStore.getProjectStore().map((project, i) => (
+      <Project key={i} {...project} />
+    ));
+
     return (
       <article className="panel" id="work">
         <div className="fadeInLoad">
           <header>
             <h1>Projects</h1>
           </header>
-          <div>
-            <Project title="Recommendation System" />
-            <Project title="Content Ingestion System" />
-            <Project title="Flink Aggregations" />
-            <Project title="History Reconstruction" />
-            <Project title="Open Source Contribution" />
-            <Project title="Recommendation System" />
-            <Project title="Recommendation System" />
-          </div>
+          {projects}
         </div>
       </article>
     );

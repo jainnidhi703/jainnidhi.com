@@ -7,7 +7,7 @@ class Project extends Component {
       <div className="container">
         <div className="flex-item">
           <div className="comicSans">
-            {this.props.title}
+            {this.props.name}
           </div>
         </div>
       </div>
@@ -16,7 +16,7 @@ class Project extends Component {
 }
 
 Project.propTypes = {
-  title: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired
 };
 
 export default Project;

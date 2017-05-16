@@ -5,15 +5,19 @@ class Project extends Component {
   getUrlTag = (url, text) => {
     if (typeof url !== "undefined" || url !== null)
       return (
-        <a href={url} target="_blank" style={{ textDecoration: "none" }}>
+        <a
+          href={url}
+          target="_blank"
+          style={{ textDecoration: "none", float: "right" }}
+        >
           {text == null ? url : text}
         </a>
       );
   };
 
   render() {
-    let gitUrl = this.getUrlTag(this.props.gitUrl);
-    let projectUrl = this.getUrlTag(this.props.projectUrl, this.props.name);
+    // let gitUrl = this.getUrlTag(this.props.gitUrl);
+    // let projectUrl = this.getUrlTag(this.props.projectUrl, this.props.name);
 
     return (
       <div className="container">
@@ -21,7 +25,15 @@ class Project extends Component {
           <div className="comicSans">
             {this.props.name}
           </div>
-          {gitUrl}
+          <div className="tech-wrapper">
+            {this.props.technologies.map((tech, i) => (
+              <span className="tech"> {tech}</span>
+            ))}
+            {/*{gitUrl}*/}
+          </div>
+          <div>
+            {this.props.description}
+          </div>
         </div>
       </div>
     );
@@ -29,7 +41,8 @@ class Project extends Component {
 }
 
 Project.propTypes = {
-  name: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired
 };
 
 export default Project;

@@ -25,11 +25,11 @@ class Project extends Component {
         <div className="flex-item">
           <div className="comicSans">
             {this.props.name}
-            <div className="tech-wrapper">
-              {this.props.technologies.map((tech, i) => (
-                <span className="tech" key={i}> {tech}</span>
-              ))}
-            </div>
+          </div>
+          <div className="tech-wrapper">
+            {this.props.technologies.map((tech, i) => (
+              <span className="tech" key={i}> {tech}</span>
+            ))}
           </div>
           <div style={{ paddingTop: "0.8em" }}>
             {description}

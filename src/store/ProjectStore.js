@@ -1,11 +1,17 @@
 class ProjectStore {
   static getProjectStore() {
     return [
-      { name: "Recommendation System" },
+      { name: "Recommendation Engine" },
       { name: "Content Ingestion System" },
       { name: "Flink Aggregations" },
-      { name: "History Reconstruction" },
-      { name: "Open Source Contribution" }
+      {
+        name: "History Reconstruction",
+        gitUrl: "https://github.com/jainnidhi703/HistoryReconstruction"
+      },
+      {
+        name: "Open Source Contribution",
+        projectUrl: "https://okular.kde.org/"
+      }
     ];
   }
 }

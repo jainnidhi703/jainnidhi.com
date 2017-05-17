@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
+
 class Project extends Component {
   getUrlTag = (url, text) => {
     if (typeof url !== "undefined" || url !== null)
@@ -13,28 +14,33 @@ class Project extends Component {
 
   render() {
     // let gitUrl = this.getUrlTag(this.props.gitUrl);
-    // let projectUrl = this.getUrlTag(
+    // lest projectUrl = this.getUrlTag(
     //   this.props.projectUrl,
     //   this.props.projectUrlText
     // );
 
-    let description = this.props.description;
-
     return (
-      <div className="container">
-        <div className="flex-item">
-          <div className="comicSans">
+      <div className="w3-card-4">
+        <header className="w3-container w3-light-grey">
+          <h3>
             {this.props.name}
-          </div>
-          <div className="tech-wrapper">
-            {this.props.technologies.map((tech, i) => (
-              <span className="tech" key={i}> {tech}</span>
-            ))}
-          </div>
-          <div style={{ paddingTop: "0.8em" }}>
-            {description}
-          </div>
-
+          </h3>
+        </header>
+        <div className="w3-container">
+          <img
+            src={this.props.img}
+            alt=""
+            className="w3-left w3-circle w3-margin-right"
+          />
+          <p>
+            {this.props.description}
+          </p>
+          <br />
+        </div>
+        <div className="w3-button w3-block w3-dark-grey">
+          {this.props.technologies.map((tech, i) => (
+            <span className="tech" key={i}> {tech}</span>
+          ))}
         </div>
       </div>
     );

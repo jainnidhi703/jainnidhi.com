@@ -6,8 +6,9 @@ import flink from "../public/images/flink-aggregation.svg";
 import cis from "../public/images/cis.svg";
 import ir from "../public/images/ir.svg";
 import open from "../public/images/open.svg";
+import www from "../public/images/www.svg";
 
-const images = [reco, flink, cis, ir, open];
+const images = [reco, flink, cis, www, ir, open];
 
 class Projects extends Component {
   render() {

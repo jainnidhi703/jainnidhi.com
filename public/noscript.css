@@ -5,8 +5,8 @@
 */
 
 .w3-card-4 {
-	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
-	width: 80%;
+	box-shadow: 0px 0px 1px;
+	width: 90%;
 	margin: auto auto 2em auto;
 }
 
@@ -22,7 +22,7 @@
 
 .w3-dark-grey {
 	color: #fff!important;
-	background-color: #616161!important;
+	background-color: lightslategrey!important;
 }
 
 .w3-container {
@@ -31,6 +31,7 @@
 }
 
 .w3-container img {
+	padding-top: 0.5em;
 	margin-bottom: -5px;
 	height: 60px;
 	width: 60px;
@@ -38,6 +39,7 @@
 
 .w3-container p {
 	display: block;
+	padding-left: 76px;
 	-webkit-margin-before: 1em;
 	-webkit-margin-after: 1em;
 	-webkit-margin-start: 0px;

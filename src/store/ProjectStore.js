@@ -17,7 +17,7 @@ export default [
   {
     name: "jainnidhi.com",
     gitUrl: "https://github.com/jainnidhi703/jainnidhi.com",
-    description: "Single Page Personal Website with animations",
+    description: "Responsive single page personal website",
     technologies: ["React", "CSS"]
   },
   {

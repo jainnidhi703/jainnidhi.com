@@ -1,2 +1,2 @@
-# jainnidhi.com
-Source code for jainnidhi.com
+# nidhi.dev
+Source code for  nidhi.dev
